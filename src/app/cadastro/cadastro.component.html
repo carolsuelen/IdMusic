@@ -1,0 +1,153 @@
+<div class="container">
+  <div class="py-5 text-center">
+    <h2>Tela de Cadastro</h2>
+    <p class="lead">Informações do Perfil de Usuário</p>
+  </div>
+
+  <h4 class="mb-3">Endereço</h4>
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <label for="firstName" class="form-label">Primeiro Nome:</label>
+        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+        <div class="invalid-feedback">
+          Por favor insira um nome válido.
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="lastName" class="form-label">Último Nome:</label>
+        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+        <div class="invalid-feedback">
+          Por favor insira um Sobrenome válido.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="username" class="form-label">Digite seu E-mail:</label>
+        <div class="input-group">
+          <span class="input-group-text">@</span>
+          <input type="text" class="form-control" id="username" placeholder="seunome@empresa.com.br" required>
+          <div class="invalid-feedback">
+            Digite um e-mail válido.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="email" class="form-label">E-mail <span class="text-muted">(Opcional)</span></label>
+        <input type="email" class="form-control" id="email" placeholder="seunome@empresa.com">
+        <div class="invalid-feedback">
+          Por favor, insira um endereço de e-mail válido para atualizações de envio.
+        </div>
+      </div>
+
+      <div class="col-12">
+        <label for="address" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="address" placeholder="Rua, Bairro, 1234" required>
+        <div class="invalid-feedback">
+          Por favor, digite seu endereço para o envio de correspondências.
+        </div>
+      </div>
+      <div class="col-md-5"><br>
+        <label for="country" class="form-label">País</label>
+        <select class="form-select" id="pais" required>
+          <option value=""> Escolha...</option>
+          <option>Brasil</option>
+          <option>Portugal</option>
+        </select>
+        <div class="invalid-feedback">
+          Por favor selecione um país válido.
+        </div>
+      </div>
+      <div class="col-md-5"><br>
+        <label for="state" class="form-label">Estado</label>
+        <select class="form-select" id="state" required>
+          <option value="">Escolha...</option>
+          <option>Minas Gerais-Brasil</option>
+          <option>São Paulo-Brasil</option>
+          <option>Lisboa-Portugal</option>
+          <option>Coimbra-Portugal</option>
+        </select>
+        <div class="invalid-feedback">
+          Por favor escolha um estado válido.
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="zip" class="form-label">CEP</label>
+        <input type="text" class="form-control" id="zip" placeholder="" required>
+        <div class="invalid-feedback">
+          O preenchimento do CEP é obrigatório.
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="same-address">
+      <label class="form-check-label" for="same-address">Endereço de envio é o mesmo que meu endereço de cobrança.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="save-info">
+      <label class="form-check-label" for="save-info">Guarde essas informações para a próxima vez.</label>
+    </div>
+
+    <hr class="my-4">
+
+    <h4 class="mb-3">Pagamentos</h4>
+
+    <div class="my-3">
+      <div class="form-check">
+        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+        <label class="form-check-label" for="credit">Cartão de Crédito</label>
+      </div>
+      <div class="form-check">
+        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+        <label class="form-check-label" for="debit">Cartão de Debito</label>
+      </div>
+      <div class="form-check">
+        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+        <label class="form-check-label" for="paypal">PayPal</label>
+      </div>
+    </div>
+
+    <div class="row gy-3">
+      <div class="col-md-6">
+        <label for="cc-name" class="form-label">Nome do Cartão</label>
+        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+        <small class="text-muted">Nome completo como exibido no cartão</small>
+        <div class="invalid-feedback">
+          Nome no cartão é necessário.
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="cc-number" class="form-label">Número do Cartão de Crédito</label>
+        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+        <div class="invalid-feedback">
+          Número do cartão é necessário.
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="cc-expiration" class="form-label">Expiration</label>
+        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+        <div class="invalid-feedback">
+          Data de expiração é necessária.
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label for="cc-cvv" class="form-label">CVV</label>
+        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+        <div class="invalid-feedback">
+          Código de segurança é necessário.
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
+    <a class="btn btn-primary btn-lg float-right" href="extrato" role="button">Salvar</a>

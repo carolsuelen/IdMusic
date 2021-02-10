@@ -1,0 +1,35 @@
+.header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#navigation {
+  background-color:rgb(144, 144, 131);
+}
+
+header .logo {
+  margin-left: 5px;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 25px;
+  padding-right: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #3a3535;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+
+#logoRock {
+
+  background-image: url(rockhand.png)
+
+}

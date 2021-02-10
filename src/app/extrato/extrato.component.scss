@@ -1,0 +1,22 @@
+.container {
+  max-width: 960px;
+  padding-bottom: 150px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  font-size: 1.25rem;
+  border-radius: .3rem;
+}
+.card-body{
+  background-color: rgb(224, 224, 224);
+}
+
+.card-body a {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
