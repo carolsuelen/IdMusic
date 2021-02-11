@@ -1,6 +1,6 @@
-# NovaAplicacao
+# IdMusica
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+A rede social que veio para mudar o mundo da musica, unir todas as bandas em um lugar só !!!
 
 ## Development server
 
