@@ -1,6 +1,6 @@
 # IdMusica
 
-A rede social que veio para mudar o mundo da musica, unir todas as bandas em um lugar só !!!
+A rede social que veio para mudar o mundo da música, unir todas as bandas em um lugar só !!!
 
 ## Development server
 
