@@ -1,19 +1,29 @@
+.container-fluid {
+    background-color: #353839 !important;
+    box-sizing: border-box;
+}
+body {
+    background-color: #353839 !important;
+}
+
 .form {
-  width: 100%;
-  max-width: 330px;
-  padding: 5px;
-  padding-top: 90px;
+    width: 100%;
+    max-width: 330px;
+    padding: 5px;
+    padding-top: 65px;
+    margin: 0 auto;
+}
+#logoRock{
   
-  margin: 0 auto;
-}
-#logoLogin {
-
-  background-color: rgba(247, 136, 45, 0.411);
-  border-radius: 5px;
-  width: 95px;
-  height: 92px;
-  background-image: url(logoBank.png);
-
+    width: 260px;
+    height: 280px;
+    background-image: url(rock5.jpg);
+  
 }
 
+.btn-personalizado {
+    color: white;
+    background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+    border-color: red;
+}
 

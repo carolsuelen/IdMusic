@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'nova-aplicacao'`, () => {
+  it(`should have as title 'idmusic'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('nova-aplicacao');
+    expect(app.title).toEqual('idmusic');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('nova-aplicacao app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('idmusic app is running!');
   });
 });

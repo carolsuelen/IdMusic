@@ -1,33 +1,33 @@
 .jumbotron {
-  background-image: url(rock.PNG);
-  height: 700px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font: bold;
+    background-image: url(backHome.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font: bold;
 }
-
+  
 .jumbotron .titulo-destaque {
-  color: rgb(0, 0, 0);
-  margin-top: 10%;
-  font: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    font: bold;
 }
-
+  
 .jumbotron .descricao {
-  margin-top: 10px;
-  margin-bottom: 30px;
-
+    margin-top: 10px;
+    margin-bottom: 30px;
+  
 }
-
+  
 .container {
-  margin-left: 20px;
+    margin-left: 20px;
 }
-
+  
 .jumbotron .container {
-  width:40%;
+    width:40%;
 }
 
-
+  

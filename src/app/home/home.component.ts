@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import $ from 'jQuery';
+import $ from "jquery";
 
 @Component({
   selector: 'app-home',
@@ -11,16 +11,12 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
-  // seu codigo aqui
-  $(document).ready(function(){
-    var teste = $('#fadeTeste');
-     $('#fadeTeste').fadeIn(4000);
-     console.log('teste');
-     console.log(teste);
-
- });
-
- }
+    $(document).ready(function(){
+      var teste = $('#fadeTeste');
+      $('#fadeTeste').fadeIn(4000);
+      console.log('teste');
+      console.log(teste);
+    });
+  }
 
 }
