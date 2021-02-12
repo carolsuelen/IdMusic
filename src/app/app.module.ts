@@ -15,6 +15,12 @@ import { MenuComponent } from './pagina-usuario/menu/menu.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { PerfilComponent } from './pagina-usuario/perfil/perfil.component';
+import { HeaderPerfilComponent } from './pagina-usuario/perfil/header-perfil/header-perfil.component';
+import { PublicacaoComponent } from './pagina-usuario/perfil/publicacao/publicacao.component';
+import { FotosComponent } from './pagina-usuario/perfil/fotos/fotos.component';
+import { VideosComponent } from './pagina-usuario/perfil/videos/videos.component';
+import { SobreComponent } from './pagina-usuario/perfil/sobre/sobre.component';
+import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component';
 
 
 @NgModule({
@@ -28,7 +34,13 @@ import { PerfilComponent } from './pagina-usuario/perfil/perfil.component';
     PaginaUsuarioComponent,
     HeaderPaginaComponent,
     MenuComponent,
-    PerfilComponent
+    PerfilComponent,
+    HeaderPerfilComponent,
+    PublicacaoComponent,
+    FotosComponent,
+    VideosComponent,
+    SobreComponent,
+    AmigosComponent
   ],
   imports: [
     BrowserModule,
