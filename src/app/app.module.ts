@@ -14,7 +14,8 @@ import { HeaderPaginaComponent } from './pagina-usuario/header-pagina/header-pag
 import { MenuComponent } from './pagina-usuario/menu/menu.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { FeedComponent } from './pagina-usuario/feed/feed.component';
+import { PerfilComponent } from './pagina-usuario/perfil/perfil.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { FeedComponent } from './pagina-usuario/feed/feed.component';
     PaginaUsuarioComponent,
     HeaderPaginaComponent,
     MenuComponent,
-    FeedComponent
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
