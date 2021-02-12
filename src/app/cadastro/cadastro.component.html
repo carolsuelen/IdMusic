@@ -36,13 +36,20 @@
             Por favor, insira uma válida.
           </div>
         </div>
-  
-        <div class="col-12">
-          <label for="address" class="form-label text-light">Endereço</label>
-          <input type="text" class="form-control" id="address" placeholder="Rua, Bairro, 1234" required>
-          <div class="invalid-feedback text-danger">
-            Por favor, digite seu endereço para o envio de correspondências.
-          </div>
+        <br>
+        <div class="col-sm-6">
+          <form>
+            <div>
+              <label for="data" class="text-light">Data de Nascimento:</label><br>
+              <input type="date" id="festa" name="festa" min="1900-01-01" max="2021-03-01">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-6 checkbox mb-3 text-danger">
+          <label for="genero" class="text-light"> Gênero </label><br>
+            <input type="checkbox" value="masculino"> Masculino 
+            <input type="checkbox" value="feminino"> Feminino 
+            <input type="checkbox" value="personalizado"> Personalisado      
         </div>
 
         <div class="col-md-5"><br>
@@ -61,9 +68,13 @@
             Por favor escolha um estado válido.
           </div>
         </div>
-         
-  </div>      
+        
+  </div>  
+  <hr class="text-center">
+
+        <a class="btn btn-personalizado btn-lg float-center" href="extrato" type="submit" role="button">Salvar</a>    
 </div>
+
   
      
   
