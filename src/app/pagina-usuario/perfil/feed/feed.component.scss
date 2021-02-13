@@ -17,6 +17,12 @@
     color: white;
     background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
 }
+svg:hover path {
+    fill: #fc9b7e;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
 .foto{
     margin-left:17em;
 }
@@ -25,7 +31,7 @@
     margin-left:10em;
 }
 
-.localizacao{
+.localizacao {
     margin-left:10em;
 }
 
