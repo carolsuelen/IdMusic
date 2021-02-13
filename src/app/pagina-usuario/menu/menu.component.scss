@@ -2,8 +2,10 @@
     margin-top:2em;
     width: 171px;
     height:166px;
-    background-image: url(usuario.png);
+    background-image: url(IMG_20171224_220303356.jpg);
     border-radius: 105px;
+	background-position: center;
+	background-size: cover;
   
 }
 
@@ -51,6 +53,7 @@ body {
 	font-size:1.0em;
 	margin:0 1em 1em 1em;
 	padding:0;
+	height: 1000px;
 }
 
 #menu li {padding:0; margin:0;}

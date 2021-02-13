@@ -1,14 +1,20 @@
 .navbar{
-    background-image: url(capa.png);
+    background-image: url(capa2.png);
     position: relative;
     height: 500px;
     top:0em;
+    background-size: cover; //imagem cobre toda área do div
+    background-position:center;
 }
 
 
+
+
 .fotoperfil{
-    background-image: url(usuario.png);
+    background-image: url(IMG_20171224_220303356.jpg);
+    background-size: cover; 
     height: 200px;
+    
 }
 .card{
     position: center;
@@ -22,6 +28,7 @@
     margin-top:32em;
     margin-left:40em;
     color: #A9A9A9;
+    background-color:rgba(255,255,255,0.2)
 }
 
 #navigation{

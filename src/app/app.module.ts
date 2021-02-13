@@ -21,6 +21,7 @@ import { FotosComponent } from './pagina-usuario/perfil/fotos/fotos.component';
 import { VideosComponent } from './pagina-usuario/perfil/videos/videos.component';
 import { SobreComponent } from './pagina-usuario/perfil/sobre/sobre.component';
 import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component';
+import { FeedComponent } from './pagina-usuario/perfil/feed/feed.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component
     FotosComponent,
     VideosComponent,
     SobreComponent,
-    AmigosComponent
+    AmigosComponent,
+    FeedComponent
   ],
   imports: [
     BrowserModule,

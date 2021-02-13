@@ -1,0 +1,29 @@
+.container{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 1em;
+
+}
+
+.card{
+    margin-top:10px;
+    background-size: cover;
+    image-resolution: 12px;
+}
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto; 
+}
+
+.btn-personalizado {
+    color: white;
+    background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+    border-color: red;
+    margin-left: 0.9em;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+ }

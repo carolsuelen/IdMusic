@@ -1,10 +1,14 @@
 .container-fluid {
     // background-color: #353839 !important;
-    background-image: url(back.png);
     box-sizing: border-box;
     padding-bottom: 400px;
+    background-color: #D3D3D3 !important;
+    box-sizing: border-box;
 }
-  
+
+body {
+    background-color: #D3D3D3 !important;
+} 
 .btn-group-lg>.btn, .btn-lg {
   
     padding-right: 35px;
@@ -23,4 +27,5 @@
     color: white;
     background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
     border-color: red;
+    margin-left: 0.9em;
 }
