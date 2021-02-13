@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-API", "0-API", "{D5B36F9D-8110-42DE-8ABA-D8D360B0C0B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{1FE705F8-F5B2-41A8-BA65-B13B8C9E79CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{0EEA2DAD-F3DA-4603-9CF5-048080B933EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{E8368D9B-4D9D-40F2-B2A3-7755FB6B0520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Tests", "4-Tests", "{74D38E05-1469-436F-903A-CB532634FEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdMusic.Domain", "src\Modules\IdMusic.Domain\IdMusic.Domain.csproj", "{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CCE5E3D-CD2C-4D07-B334-F9ED722A090E} = {0EEA2DAD-F3DA-4603-9CF5-048080B933EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBF75B6B-D9F0-4152-83F3-35051011D58E}
+	EndGlobalSection
+EndGlobal
