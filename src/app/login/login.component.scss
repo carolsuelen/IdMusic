@@ -1,5 +1,6 @@
 .container-fluid {
     background-color: #D3D3D3 !important;
+    
     box-sizing: border-box;
 }
 body {
@@ -15,11 +16,15 @@ body {
 }
 #logoRock{
   
-    width: 260px;
+    width: 280px;
     height: 280px;
-    background-image: url(rock5.jpg);
-  
+    background-image: url(logo.png);  
 }
+
+.imagem{
+    border: none;
+}
+
 
 .btn-personalizado {
     color: white;

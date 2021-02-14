@@ -45,5 +45,27 @@ nav a {
     margin-left: 20px;
 }
 
+.btn-comentar{
+    background:linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+    color:white;
+}
+.btn-fechar{
+    background:linear-gradient(to bottom, #2c2929 0%, #000000 100%);
+    color:white;
+}
+.modal-header{
+    height: 40px;
+    padding: 0.7em;
+    background:#363636;
+    color:white;
+}
+.modal-body{
+    background-color: #D3D3D3 !important;
+}
+
+.modal-footer{
+    background:#D3D3D3 !important;
+    padding:0.5em;
+}
 
 
