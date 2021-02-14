@@ -4,7 +4,7 @@
     <body class="text-center">
       <form class="form-signin" #form="ngForm" (ngSubmit)="onSubmit(form)">
         <img class="imagem" id="logoRock" width=50 height=50> 
-        <br><br><br>
+        <br><br>
         <div>
           <p *ngIf="exibeErro('email', form)" class="text-center text-danger"> E-mail inválido </p>
             <input
@@ -27,7 +27,7 @@
             placeholder="Digite sua senha"
             [(ngModel)]="password" required
             [class.is-invalid]="exibeErro('password',form)" #Input>
-        </div> <br>
+        </div>
         <label class="text-black">
             <input type="checkbox" value="remember-me"> Lembrar-me 
         </label>
@@ -37,7 +37,7 @@
         <div class="text-center">
           <button type="button" class="btn btn-lg btn-personalizado btn-block" type="submit" >Entrar</button>
         </div>
-        <p class="mt-5 mb-3 text-muted">&copy;Rock Book</p>
+        <p class="mt-4 mb-6 text-muted ">&copy;IdMusic</p>
       </form>
     </body>
   </div>

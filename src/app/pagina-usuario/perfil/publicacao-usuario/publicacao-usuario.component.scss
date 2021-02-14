@@ -1,0 +1,146 @@
+.container-fluid{
+    padding: 0;
+    background-color:#D3D3D3 !important;
+    margin-top:0;
+    background-size: cover;
+  
+
+}
+.publicar{
+    margin-top: 2em;
+}
+.input{
+    margin-top: 1em;
+}
+
+.botao{
+    margin-top: 1em;
+    color: white;
+    background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+}
+svg:hover path {
+    fill: #fc9b7e;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.foto{
+    margin-left:17em;
+}
+
+.video{
+    margin-left:10em;
+}
+
+.localizacao {
+    margin-left:10em;
+}
+
+.container{
+    border-width: 1em;
+    background-color:#696969;
+    border-radius: 15px;
+    margin-left: middle;
+    margin-top:10px;
+}
+.container{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 1em;
+
+}
+
+.card-img-top{
+    padding: 1em;
+}
+
+.img-square-wrapper{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    padding: 0;
+    margin-top: 0;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.texto2{
+    width: 600px;
+    height: 300px;
+    padding: 2.7em;
+    margin-left: 70px;
+    box-shadow: inset -2px 0 10px black;
+    outline: none;
+}
+
+.cardVertical{
+    margin-top:10px;
+    background-size: cover;
+    image-resolution: 12px;
+    background-color: #D3D3D3 !important;
+}
+.container-fluid{
+    padding:0;
+}
+
+.card-horizontal{
+    padding:0;
+    height: 85px;
+}
+.card{
+    padding: 0;
+}
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto; 
+}
+
+.btn-personalizado {
+    color: white;
+    background: linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+    border-color: red;
+    margin-left: 0.9em;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.form-check-input{
+    color: red
+    
+}
+svg:hover path {
+    fill: #fc9b7e;
+}
+
+.btn-comentar{
+    background:linear-gradient(to bottom, #ff0000 0%, #000000 100%);
+    color:white;
+}
+.btn-fechar{
+    background:linear-gradient(to bottom, #2c2929 0%, #000000 100%);
+    color:white;
+}
+.modal-header{
+    height: 40px;
+    padding: 0.7em;
+    background:#363636;
+    color:white;
+}
+.modal-body{
+    background-color: #D3D3D3 !important;
+}
+
+.modal-footer{
+    background:#D3D3D3 !important;
+    padding:0.5em;
+}
+
+.texto{
+    height: 250px;
+
+}

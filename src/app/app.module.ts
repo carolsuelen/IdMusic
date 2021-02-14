@@ -22,6 +22,9 @@ import { VideosComponent } from './pagina-usuario/perfil/videos/videos.component
 import { SobreComponent } from './pagina-usuario/perfil/sobre/sobre.component';
 import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component';
 import { FeedComponent } from './pagina-usuario/perfil/feed/feed.component';
+import { PublicacaoUsuarioComponent } from './pagina-usuario/perfil/publicacao-usuario/publicacao-usuario.component';
+import { PostagemComponent } from './pagina-usuario/postagem/postagem.component';
+import { CapaUsuarioComponent } from './pagina-usuario/capa-usuario/capa-usuario.component';
 
 
 @NgModule({
@@ -42,7 +45,10 @@ import { FeedComponent } from './pagina-usuario/perfil/feed/feed.component';
     VideosComponent,
     SobreComponent,
     AmigosComponent,
-    FeedComponent
+    FeedComponent,
+    PublicacaoUsuarioComponent,
+    PostagemComponent,
+    CapaUsuarioComponent
   ],
   imports: [
     BrowserModule,

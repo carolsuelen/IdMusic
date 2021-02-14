@@ -1,12 +1,16 @@
 .container-fluid {
     background-color: #D3D3D3 !important;
-    
-    box-sizing: border-box;
+    height: 800px;
 }
 body {
     background-color: #D3D3D3 !important;
 }
-
+a img{
+    border-style:0;
+}
+.idmark{
+    border-top:none;
+}
 .form {
     width: 100%;
     max-width: 330px;
@@ -16,9 +20,9 @@ body {
 }
 #logoRock{
   
-    width: 280px;
-    height: 280px;
-    background-image: url(logo.png);  
+    width: 230px;
+    height: 230px;
+    background-image: url(logo2.png);  
 }
 
 .imagem{
