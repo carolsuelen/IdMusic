@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IdMusic.Application/1.0.0": {
+        "dependencies": {
+          "IdMusic.Domain": "1.0.0"
+        },
+        "runtime": {
+          "IdMusic.Application.dll": {}
+        }
+      },
+      "IdMusic.Domain/1.0.0": {
+        "runtime": {
+          "IdMusic.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IdMusic.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdMusic.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

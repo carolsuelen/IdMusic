@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {}
+  },
+  "projects": {
+    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "projectName": "IdMusic.Application",
+        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "projectName": "IdMusic.Domain",
+        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "projectName": "IdMusic.Repositories.IoC",
+        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
+              },
+              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              },
+              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "projectName": "IdMusic.Repositories",
+        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
