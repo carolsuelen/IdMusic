@@ -25,7 +25,13 @@ import { FeedComponent } from './pagina-usuario/perfil/feed/feed.component';
 import { PublicacaoUsuarioComponent } from './pagina-usuario/perfil/publicacao-usuario/publicacao-usuario.component';
 import { PostagemComponent } from './pagina-usuario/postagem/postagem.component';
 import { CapaUsuarioComponent } from './pagina-usuario/capa-usuario/capa-usuario.component';
-
+import { ListaFotoUsuarioComponent } from './pagina-usuario/perfil/fotos/lista-foto-usuario/lista-foto-usuario.component';
+import { ListaVideosUsuarioComponent } from './pagina-usuario/perfil/videos/lista-videos-usuario/lista-videos-usuario.component';
+import { ListaAmigosComponent } from './pagina-usuario/perfil/amigos/lista-amigos/lista-amigos.component';
+import { ResumoComponent } from './pagina-usuario/perfil/sobre/resumo/resumo.component';
+import { BandasComponent } from './pagina-usuario/perfil/bandas/bandas.component';
+import { ListaBandaUsuarioComponent } from './pagina-usuario/perfil/bandas/lista-banda-usuario/lista-banda-usuario.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -48,7 +54,13 @@ import { CapaUsuarioComponent } from './pagina-usuario/capa-usuario/capa-usuario
     FeedComponent,
     PublicacaoUsuarioComponent,
     PostagemComponent,
-    CapaUsuarioComponent
+    CapaUsuarioComponent,
+    ListaFotoUsuarioComponent,
+    ListaVideosUsuarioComponent,
+    ListaAmigosComponent,
+    ResumoComponent,
+    BandasComponent,
+    ListaBandaUsuarioComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +69,7 @@ import { CapaUsuarioComponent } from './pagina-usuario/capa-usuario/capa-usuario
     BrowserAnimationsModule,
     MatSidenavModule,
     MatToolbarModule,
+    HttpClientModule,
   ],
   exports: [
     MatSidenavModule,

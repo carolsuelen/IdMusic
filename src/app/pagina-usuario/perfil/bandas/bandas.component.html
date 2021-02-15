@@ -1,0 +1,36 @@
+<div *ngIf="loading" class="spinner-border m-5" role="status" >
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="spinner-border text-center" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  
+    <h2 *ngIf="errorOnLoading" >Desculpa te decepcionar, mas ocorreu um erro :(</h2>
+    <table *ngIf="!loading && !errorOnLoading" class="table">
+      <thead class="thead-dark">
+        <tr class="text-center">
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <!-- <th scope="col">Adicionar</th> -->
+            <th scope="col">Excluir</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let bandas of banda" class="text-center">
+          <td>{{bandas.collection[0].id}}</td>
+          <td>{{bandas.collection[0].name}}</td>
+          <!-- <td><button (click)="" class="btn btn-outline-dark">Adicionar</button></td> -->
+          <td><button (click)="deletar(bandas.collection[0].id)" class="btn btn-outline-danger">Apagar</button></td>
+        </tr>  
+    </table>
+  
+    <div *ngIf="!loading && !errorOnLoading" class="btn-group pagination justify-content-center " role="group" >
+      <nav >
+        <ul>
+          <button [disabled]="page===1" (click)="prev()" class="btn btn-outline-dark">Página Anterior</button>
+          <button (click)="next()" class="btn btn-outline-dark">Próxima Página</button>
+        </ul>
+        
+      </nav>
+        
+    </div>
