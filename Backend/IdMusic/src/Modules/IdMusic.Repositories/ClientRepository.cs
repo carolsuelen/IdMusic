@@ -36,7 +36,7 @@ namespace IdMusic.Repositories
                         FROM
                               Usuario u
                           INNER JOIN 
-	                            Genero g ON g.Id = u.GeneroId
+	                            Genre g ON g.Id = u.GenreId
                           WHERE 
 	                            u.Id= '{id}'";
 
