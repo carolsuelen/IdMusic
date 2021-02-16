@@ -12,7 +12,7 @@ import { Banda } from './banda.interface';
 })
 export class BandasComponent implements OnInit {
 
-  banda: Array<Banda>;
+  public banda: Array<any>=[];
   bandas:any[];
   page=1;
   loading:boolean;
@@ -24,7 +24,6 @@ export class BandasComponent implements OnInit {
     private router:Router,
     private location:Location
   ) { 
-    this.banda=[];
     this.bandas=[];
     this.loading = true;
     this.errorOnLoading = true;
@@ -51,13 +50,7 @@ export class BandasComponent implements OnInit {
     this.errorOnLoading=false;
     
     this.http.getBandas(this.page)
-      .pipe(
-        take(1),
-        finalize(()=>{
-          this.loading=false;
-        })
-      )
-      .subscribe(
+        .subscribe(
         response => this.onSuccess(response),
         error=>this.onError(error),
       );
@@ -68,7 +61,7 @@ export class BandasComponent implements OnInit {
     this.errorOnLoading=true;
     console.log(error);
   }
-  onSuccess(response:Banda[]) {
+  onSuccess(response:any) {
     
     this.banda=response;
     this.retornarLista(this.banda);
@@ -90,8 +83,8 @@ export class BandasComponent implements OnInit {
   }
 
   retornarLista(banda:any){
-    this.bandas.push(this.banda);
-    console.log(this.bandas);
+    // this.bandas.push(this.banda);
+    console.log(this.banda);
   }
 
 }

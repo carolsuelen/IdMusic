@@ -9,17 +9,21 @@ import { catchError, retry } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class BandasService {
-
+  private http: HttpClient
   constructor(
-    private http: HttpClient
-  ) { }
+   _http:HttpClient
+  ) { 
+    this.http=_http;
+  }
 
-  getBandas(page:number){
-    return this.http.get<Banda[]>('rbdb.io/v3/artists/1',{
+  getBandas(page:number): Observable<any>{
+    return this.http.get<any>('http://rbdb.io/v3/artists/10',{
       params:{
         _page: String(page),
       }
+      
     });
+    
   }
 
   getBanda(id: number){
