@@ -34,7 +34,7 @@ namespace IdMusic.Repositories
 	                             g.Id as GenreId,
 	                             g.Description
                         FROM
-                              Usuario u
+                              Client u
                           INNER JOIN 
 	                            Genre g ON g.Id = u.GenreId
                           WHERE 
@@ -142,7 +142,7 @@ namespace IdMusic.Repositories
                                            PhotoCapa,
                                            Biografy,
                                            Band)
-                                VALUES (@genreId,
+                               VALUES (@genreId,
                                         @name,
                                         @email,
                                         @password,
