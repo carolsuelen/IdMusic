@@ -16,12 +16,9 @@ export class BandasService {
     this.http=_http;
   }
 
-  getBandas(page:number): Observable<any>{
-    return this.http.get<any>('http://rbdb.io/v3/artists/10',{
-      params:{
-        _page: String(page),
-      }
-      
+  getBandas(): Observable<any>{
+    return this.http.get<any>('http://rbdb.io/v4/artists',{
+          
     });
     
   }
@@ -29,11 +26,11 @@ export class BandasService {
   getBanda(id: number){
   //  const error = throwError('Error Normal');
   //    return timer(3000).pipe(mergeMap(()=>error)); 
-     return this.http.get<Banda>('rbdb.io/v3/artists/'+id);
+     return this.http.get<Banda>('rbdb.io/v4/artists/'+id);
   }
 
   deleteBanda(id:number){
-    return this.http.delete<Banda>('rbdb.io/v3/artists/'+id.toString());
+    return this.http.delete<Banda>('rbdb.io/v4/artists/'+id.toString());
   }  
 
 }

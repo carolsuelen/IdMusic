@@ -32,6 +32,7 @@ import { ResumoComponent } from './pagina-usuario/perfil/sobre/resumo/resumo.com
 import { BandasComponent } from './pagina-usuario/perfil/bandas/bandas.component';
 import { ListaBandaUsuarioComponent } from './pagina-usuario/perfil/bandas/lista-banda-usuario/lista-banda-usuario.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatSidenavModule,
     MatToolbarModule,
     HttpClientModule,
+    NgxPaginationModule,
   ],
   exports: [
     MatSidenavModule,

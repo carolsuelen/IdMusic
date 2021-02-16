@@ -16,8 +16,9 @@ export class BandasComponent implements OnInit {
   bandas:any[];
   page=1;
   loading:boolean;
-  errorOnLoading:boolean;
-
+  errorOnLoading:boolean; 
+  paginaAtual : number = 1 ;
+  contador : number = 100;
   
   constructor(
     private http:BandasService,
@@ -49,7 +50,7 @@ export class BandasComponent implements OnInit {
     this.loading=true;
     this.errorOnLoading=false;
     
-    this.http.getBandas(this.page)
+    this.http.getBandas()
         .subscribe(
         response => this.onSuccess(response),
         error=>this.onError(error),
@@ -83,8 +84,8 @@ export class BandasComponent implements OnInit {
   }
 
   retornarLista(banda:any){
-    // this.bandas.push(this.banda);
-    console.log(this.banda);
+    this.bandas.push(this.banda);
+    console.log(this.bandas);
   }
 
 }
