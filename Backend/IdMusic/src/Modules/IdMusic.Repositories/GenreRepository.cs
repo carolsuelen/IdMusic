@@ -21,7 +21,7 @@ namespace IdMusic.Repositories
       {
         var sqlCmd = @$"SELECT
                               Id,
-	                            Description,
+	                            Description
                         FROM 
 	                            Genre
                         WHERE 

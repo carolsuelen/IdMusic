@@ -142,7 +142,7 @@ namespace IdMusic.Repositories
                                            PhotoCapa,
                                            Biografy,
                                            Band)
-                               VALUES (@genreId,
+                                VALUES (@genreId,
                                         @name,
                                         @email,
                                         @password,

@@ -54,6 +54,8 @@ namespace IdMusic.Application.AppClient
       }
 
       var client = new Client(input.Name,
+                              input.Email,
+                              input.Password,
                               input.Birthday,
                               new Genre (genre.Id, genre.Description),
                               input.Photo,
