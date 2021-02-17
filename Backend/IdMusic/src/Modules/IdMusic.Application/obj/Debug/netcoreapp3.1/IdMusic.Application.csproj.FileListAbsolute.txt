@@ -1,0 +1,24 @@
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.deps.json
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.dll
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.pdb
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csprojAssemblyReference.cache
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfoInputs.cache
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfo.cs
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CoreCompileInputs.cache
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CopyComplete
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.dll
+D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.deps.json
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csprojAssemblyReference.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfoInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfo.cs
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CoreCompileInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CopyComplete
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.pdb
