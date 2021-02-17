@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7ycGmFwDZQe138iWQa+Y0IAjnuBzYwcQE8fhzauBwvpAPrF7RSS/sGTOHbm09bPsm2DENcceISslg5nPBhn42A==",
+  "dgSpecHash": "+gVEvsIT717HXKYP7xjlq2Yt0nIiXShMLDVAsbn1ywuiLsC67I1/pQDIwjHHyW3hl30JU5fRq8ZHXTyWF7J/BA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

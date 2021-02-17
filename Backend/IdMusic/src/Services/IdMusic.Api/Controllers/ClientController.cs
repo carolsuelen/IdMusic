@@ -1,5 +1,6 @@
 using IdMusic.Application.AppClient.input;
 using IdMusic.Application.AppClient.interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -21,22 +22,25 @@ namespace IdMusic.Api.Controllers
       _clientAppService = clientAppService;
     }
 
+    [AllowAnonymous]
     [HttpPost]
     public async Task<IActionResult> Post([FromBody] ClientInput clientInput)
       {
       try
       { 
-       var client = await _clientAppService
-                              .InsertAsync(clientInput)
-                              .ConfigureAwait(false);
+         var client = await _clientAppService
+                                .InsertAsync(clientInput)
+                                .ConfigureAwait(false);
 
-      return Created("", client);
+        return Created("", client);
       }     
       catch(ArgumentException arg)
       {
         return BadRequest(arg.Message);
       }
       }
+
+    [Authorize]
     [HttpGet]
     [Route("{id}")]
     public async Task<IActionResult> Get([FromRoute] int id)

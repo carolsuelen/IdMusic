@@ -79,7 +79,10 @@ namespace IdMusic.Application.AppClient
         Birthday = client.Birthday,
         Email = client.Email,
         Genre = client.Genre,
-        Photo = client.Photo
+        Photo = client.Photo,
+        PhotoCapa = client.PhotoCapa,
+        Biografy = client.Biografy,
+        Band = client.Band
       };
 
     }

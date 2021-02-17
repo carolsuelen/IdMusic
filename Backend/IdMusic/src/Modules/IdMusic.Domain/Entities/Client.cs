@@ -21,7 +21,6 @@ namespace IdMusic.Domain.Entities
       Name = name;
       Email = email;
       CriptografyPassword(password);
-      Password = password;
       Birthday = birthday;
       Genre = genre;
       Photo = photo;
