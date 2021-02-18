@@ -29,7 +29,7 @@ jobs:
       # Run dotnet build and publish
       - name: dotnet build and publish
         run: |
-          dotnet build /Backend/IdMusic/IdMusic.sln --configuration Release
+          dotnet build ./src/Backend/IdMusic/IdMusic.sln --configuration Release
           dotnet publish \Users\elise\OneDrive\Área de Trabalho\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\IdMusic.Application.csproj -c Release -o myapp  
           
       # Deploy to Azure Web apps
