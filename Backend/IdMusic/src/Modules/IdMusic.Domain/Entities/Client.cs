@@ -1,4 +1,4 @@
-using InstaGama.Domain.Core;
+using IdMusic.Domain.Core;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,7 +21,6 @@ namespace IdMusic.Domain.Entities
       Name = name;
       Email = email;
       CriptografyPassword(password);
-      Password = password;
       Birthday = birthday;
       Genre = genre;
       Photo = photo;
@@ -58,7 +57,7 @@ namespace IdMusic.Domain.Entities
     public Genre  Genre { get; private set; }
 
     public DateTime Birthday { get; private set; }
-
+    public int GenreId { get; private set; }
     public string Photo { get; private set; }
 
     public string PhotoCapa  { get; private set; }
@@ -97,7 +96,28 @@ namespace IdMusic.Domain.Entities
       Email = email;
       Password = password;
     }
+    public void UpdateInfo(string name,
+                  string email,
+                  string password,
+                  DateTime birthday,
+                  int genreId,
+                  string photo,
+                  string photocapa,
+                  string biografy,
+                  string band)
+    {
+      Name = name;
+      Email = email;
+      Birthday = birthday;
+      GenreId = genreId;
+      Photo = photo;
+      PhotoCapa = photocapa;
+      Biografy = biografy;
+      Band = band;
 
+      if (password != Password)
+        CriptografyPassword(password);
+    }
     public void SetId(int id)
     {
       Id = id;

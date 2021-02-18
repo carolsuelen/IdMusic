@@ -1,7 +1,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace InstaGama.Domain.Core
+namespace IdMusic.Domain.Core
 {
   public sealed class PasswordHasher
   {

@@ -79,9 +79,71 @@ namespace IdMusic.Application.AppClient
         Birthday = client.Birthday,
         Email = client.Email,
         Genre = client.Genre,
-        Photo = client.Photo
+        Photo = client.Photo,
+        PhotoCapa = client.PhotoCapa,
+        Biografy = client.Biografy,
+        Band = client.Band
       };
-
     }
+    public async Task<ClientViewModel> UpdateAsync(int id, ClientInput input)
+    {
+      var client = await _clientRepository
+                               .GetByIdAsync(id)
+                               .ConfigureAwait(false);
+      if (client is null)
+      {
+        throw new Exception("Cliente não encontrado");
+      }
+
+      client.UpdateInfo(
+                        input.Name,
+                        input.Email,
+                        input.Password,
+                        input.Birthday,
+                        input.GenreId,
+                        input.Photo,
+                        input.PhotoCapa,
+                        input.Biografy,
+                        input.Band);
+
+      await _clientRepository
+        .UpdateAsync(id, client)
+        .ConfigureAwait(false);
+
+
+
+      return new ClientViewModel()
+      {
+        Id = id,
+        Name = client.Name,
+        Birthday = client.Birthday,
+        Email = client.Email,
+        Genre = client.Genre,
+        Photo = client.Photo,
+        PhotoCapa = client.PhotoCapa,
+        Biografy = client.Biografy,
+        Band = client.Band
+      };
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+
+      var user = await _clientRepository
+                         .GetByIdAsync(id)
+                         .ConfigureAwait(false);
+      if (user is null)
+      {
+        throw new Exception("Cliente não encontrado");
+      }
+
+      await _clientRepository
+        .DeleteAsync(id)
+        .ConfigureAwait(false);
+    }
+
+
+
+
   }
 }

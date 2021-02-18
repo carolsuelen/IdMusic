@@ -12,6 +12,7 @@ namespace IdMusic.Repositories.IoC.Application
     internal void ChildServiceRegister(IServiceCollection services)
     {
       services.AddSingleton<IClientAppService, ClientAppService>();
+      services.AddScoped<ILoginAppService, LoginAppService>();
     }
     }
 }
