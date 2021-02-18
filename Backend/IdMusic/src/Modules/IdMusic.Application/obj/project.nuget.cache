@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5zPKPsLxvIXpFGHCuhn0FWarfApm2Il4PqRevsl8/hpvunkeqv+lMzeO3dcb0sieQ4pag/O9FspOZfPuJaGhOw==",
+  "dgSpecHash": "Jgv/SwZ9jl6N8nbgMtAy3eHzEfcLZH0o77mDXW1L4Jnkg84TwFDj8rzLZ8/78x0Fr1EPQvV/bbZY72HfNy40hQ==",
   "success": true,
-  "projectFilePath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+  "projectFilePath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
