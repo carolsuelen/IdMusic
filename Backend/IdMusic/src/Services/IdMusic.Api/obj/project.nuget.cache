@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d09kyypLfu6J6m44HkyAuALiozkii90KDv14CWEHrd03TYaLq0GgqwI117J+PZ/htoOjZkqqEG8kCHqHzdap1w==",
+  "dgSpecHash": "4OhGUrPCt41mSvX3XxLnLC+iFA0CR16Cgcx3+38TBcTAz1Z3d6jg3vp8H4ovyGvz4fcoGvxC/M0b4+ivlUSaag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+  "projectFilePath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

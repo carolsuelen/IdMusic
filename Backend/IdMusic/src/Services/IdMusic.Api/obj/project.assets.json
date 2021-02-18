@@ -5202,11 +5202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
       "projectName": "IdMusic.Api",
-      "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+      "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
       "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\obj\\",
+      "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5223,11 +5223,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
-              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
+            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
             },
-            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
-              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-Rachel\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj"
+            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
+              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj"
             }
           }
         }

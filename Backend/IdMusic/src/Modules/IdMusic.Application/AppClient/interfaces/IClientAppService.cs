@@ -1,5 +1,6 @@
 using IdMusic.Application.AppClient.input;
 using IdMusic.Application.AppClient.output;
+using IdMusic.Domain.Entities;
 using System.Threading.Tasks;
 
 namespace IdMusic.Application.AppClient.interfaces
@@ -9,5 +10,7 @@ namespace IdMusic.Application.AppClient.interfaces
     Task<ClientViewModel> InsertAsync(ClientInput input);
 
     Task<ClientViewModel> GetByIdAsync(int Id);
+    Task<ClientViewModel> UpdateAsync(int id, ClientInput input);
+    Task DeleteAsync(int id);
   }
 }

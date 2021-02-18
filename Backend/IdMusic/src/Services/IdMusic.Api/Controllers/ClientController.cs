@@ -1,6 +1,7 @@
 using IdMusic.Application.AppClient.input;
 using IdMusic.Application.AppClient.interfaces;
 using Microsoft.AspNetCore.Authorization;
+using IdMusic.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -40,7 +41,6 @@ namespace IdMusic.Api.Controllers
       }
       }
 
-    [Authorize]
     [HttpGet]
     [Route("{id}")]
     public async Task<IActionResult> Get([FromRoute] int id)
@@ -54,5 +54,47 @@ namespace IdMusic.Api.Controllers
 
       return Ok(client);
     }
+    [Authorize]
+    [HttpPut]
+    [Route("{id}")]
+    public async Task<IActionResult> Put([FromRoute] int id, [FromBody]  ClientInput clientInput)
+    {
+      try
+      {
+
+        var client = await _clientAppService
+                               .UpdateAsync(id, clientInput)
+                               .ConfigureAwait(false);
+
+        return Accepted(client);
+      }
+      catch (ArgumentException arg)
+      {
+        return BadRequest(arg.Message);
+      }
+      catch (Exception ex)
+      {
+        return NotFound(ex.Message);
+      }
+    }
+    [Authorize]
+    [HttpDelete]
+    [Route("{id}")]
+    public async Task<IActionResult> Delete([FromRoute] int id)
+    {
+      try
+      {
+        await _clientAppService
+                         .DeleteAsync(id)
+                         .ConfigureAwait(false);
+        return Ok();
+      }
+      catch (Exception ex)
+      {
+        return NotFound(ex.Message);
+      }
+      
+    }
+
   }
 }
