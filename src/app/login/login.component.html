@@ -1,28 +1,45 @@
 <app-header></app-header>
 <div class="container-fluid" >
   <div class="form">
-      <body class="text-center">
-        <form class="form-signin">
-          <img class id="logoRock" width=50 height=50> 
-          <br><br>
-          <h4 class="text-danger">Entre com sua conta</h4> <br>
-          <label for="inputEmail" class="sr-only"></label>
-          <input type="email" id="inputEmail" class="form-control" placeholder="Informe seu e-mail" required autofocus>
-          <label for="inputPassword" class="sr-only"></label>
-          <br>
-          <input type="password" id="inputPassword" class="form-control" placeholder="Digite sua senha" required>
-          <br>
-          <div class="checkbox mb-3 text-danger">
-            <label>
-              <input type="checkbox" value="remember-me"> Lembrar-me 
-            </label>
-            <br>
-           <a href="MudarSenha" class="text-danger">Esqueci minha senha</a>
-          </div>
-          <a class="btn btn-lg btn-personalizado btn-block"  href="usuario" role="button">Entrar</a>
-          <p class="mt-5 mb-3 text-muted">&copy;Rock Book</p>
-        </form>
-      </body>
+    <body class="text-center">
+      <form class="form-signin" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <img class="imagem" id="logoRock" width=50 height=50> 
+        <br><br>
+        <div>
+          <p *ngIf="exibeErro('email', form)" class="text-center text-danger"> E-mail inválido </p>
+            <input
+              class="inputLogin"
+              type="email" class="form-control" 
+              placeholder = "E-mail" name ="email" 
+              class="form-control" id="formGroupExampleInput"
+              placeholder="Informe seu e-mail" autofocus
+              [(ngModel)]="email" email required
+              [class.is-invalid]="exibeErro('email',form)" #emailInput>
+        </div>
+        <br>
+        <div>
+          <p *ngIf="exibeErro('password', form)" class="text-center text-danger password">Senha inválida </p>
+          <input 
+            class =" inputLogin"
+            type="password" class= "form-control" 
+            placeholder= "Senha" name="password" 
+            class="form-control" id="formGroupExampleInput"
+            placeholder="Digite sua senha"
+            [(ngModel)]="password" required
+            [class.is-invalid]="exibeErro('password',form)" #Input>
+        </div>
+        <label class="text-black">
+            <input type="checkbox" value="remember-me"> Lembrar-me 
+        </label>
+        <br><br>
+        <a href="MudarSenha" class="text-dark">Esqueci minha senha</a>
+        <br><br>
+        <div class="text-center">
+          <button type="button" class="btn btn-lg btn-personalizado btn-block" type="submit" >Entrar</button>
+        </div>
+        <p class="mt-4 mb-6 text-muted ">&copy;IdMusic</p>
+      </form>
+    </body>
   </div>
 </div>
   

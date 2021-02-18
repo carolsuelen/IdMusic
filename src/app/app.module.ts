@@ -21,7 +21,18 @@ import { FotosComponent } from './pagina-usuario/perfil/fotos/fotos.component';
 import { VideosComponent } from './pagina-usuario/perfil/videos/videos.component';
 import { SobreComponent } from './pagina-usuario/perfil/sobre/sobre.component';
 import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component';
-
+import { FeedComponent } from './pagina-usuario/perfil/feed/feed.component';
+import { PublicacaoUsuarioComponent } from './pagina-usuario/perfil/publicacao-usuario/publicacao-usuario.component';
+import { PostagemComponent } from './pagina-usuario/postagem/postagem.component';
+import { CapaUsuarioComponent } from './pagina-usuario/capa-usuario/capa-usuario.component';
+import { ListaFotoUsuarioComponent } from './pagina-usuario/perfil/fotos/lista-foto-usuario/lista-foto-usuario.component';
+import { ListaVideosUsuarioComponent } from './pagina-usuario/perfil/videos/lista-videos-usuario/lista-videos-usuario.component';
+import { ListaAmigosComponent } from './pagina-usuario/perfil/amigos/lista-amigos/lista-amigos.component';
+import { ResumoComponent } from './pagina-usuario/perfil/sobre/resumo/resumo.component';
+import { BandasComponent } from './pagina-usuario/perfil/bandas/bandas.component';
+import { ListaBandaUsuarioComponent } from './pagina-usuario/perfil/bandas/lista-banda-usuario/lista-banda-usuario.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -40,7 +51,17 @@ import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component
     FotosComponent,
     VideosComponent,
     SobreComponent,
-    AmigosComponent
+    AmigosComponent,
+    FeedComponent,
+    PublicacaoUsuarioComponent,
+    PostagemComponent,
+    CapaUsuarioComponent,
+    ListaFotoUsuarioComponent,
+    ListaVideosUsuarioComponent,
+    ListaAmigosComponent,
+    ResumoComponent,
+    BandasComponent,
+    ListaBandaUsuarioComponent
   ],
   imports: [
     BrowserModule,
@@ -49,6 +70,8 @@ import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component
     BrowserAnimationsModule,
     MatSidenavModule,
     MatToolbarModule,
+    HttpClientModule,
+    NgxPaginationModule,
   ],
   exports: [
     MatSidenavModule,

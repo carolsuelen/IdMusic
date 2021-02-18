@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PaginaUsuarioComponent } from './pagina-usuario/pagina-usuario.component';
 import { AmigosComponent } from './pagina-usuario/perfil/amigos/amigos.component';
+import { BandasComponent } from './pagina-usuario/perfil/bandas/bandas.component';
 import { FotosComponent } from './pagina-usuario/perfil/fotos/fotos.component';
 import { PerfilComponent } from './pagina-usuario/perfil/perfil.component';
 import { SobreComponent } from './pagina-usuario/perfil/sobre/sobre.component';
@@ -42,6 +43,9 @@ const routes: Routes = [ {
 },{
   path: 'sobre',
   component: SobreComponent,
+},{
+  path: 'bandas',
+  component: BandasComponent,
 }
 ];
 
