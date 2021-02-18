@@ -10,3 +10,15 @@ D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CopyComplete
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.dll
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.deps.json
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csprojAssemblyReference.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfoInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.AssemblyInfo.cs
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CoreCompileInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.csproj.CopyComplete
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Application\obj\Debug\netcoreapp3.1\IdMusic.Application.pdb

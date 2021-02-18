@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Koz\\.nuget\\packages\\": {}
+    "C:\\Users\\Priscila\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Priscila\\Documents\\ProjGama\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
       "projectName": "IdMusic.Domain",
-      "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
-      "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Priscila\\Documents\\ProjGama\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+      "packagesPath": "C:\\Users\\Priscila\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Priscila\\Documents\\ProjGama\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Priscila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

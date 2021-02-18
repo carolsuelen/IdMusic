@@ -7,3 +7,12 @@ D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.csproj.CoreCompileInputs.cache
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.dll
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\bin\Debug\netcoreapp3.1\IdMusic.Domain.deps.json
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.csprojAssemblyReference.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.AssemblyInfoInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.AssemblyInfo.cs
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Domain\obj\Debug\netcoreapp3.1\IdMusic.Domain.pdb

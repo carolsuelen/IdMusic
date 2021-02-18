@@ -10,3 +10,15 @@ D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.csproj.CopyComplete
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.dll
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\bin\Debug\netcoreapp3.1\IdMusic.Repositories.deps.json
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\bin\Debug\netcoreapp3.1\IdMusic.Repositories.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\bin\Debug\netcoreapp3.1\IdMusic.Repositories.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.csprojAssemblyReference.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.AssemblyInfoInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.AssemblyInfo.cs
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.csproj.CopyComplete
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.dll
+C:\Users\Priscila\Documents\ProjGama\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories\obj\Debug\netcoreapp3.1\IdMusic.Repositories.pdb

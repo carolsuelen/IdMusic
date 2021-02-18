@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\IdMusic",
+    "\\Backend\\IdMusic\\src",
+    "\\Backend\\IdMusic\\src\\Modules",
+    "\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain",
+    "\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\Entities",
+    "\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\Interfaces",
+    "\\Backend\\IdMusic\\src\\Services"
+  ],
+  "SelectedNode": "\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\Interfaces\\IClientRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
