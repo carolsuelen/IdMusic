@@ -14,3 +14,35 @@ D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csproj.CopyComplete
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.dll
 D:\projetos\Gama\WeCanCodeAcademy\C#\IdMusic\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.deps.json
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csprojAssemblyReference.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.AssemblyInfoInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.AssemblyInfo.cs
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csproj.CopyComplete
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-Rachel\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.deps.json
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Application.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Domain.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Application.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Domain.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\bin\Debug\netcoreapp3.1\IdMusic.Repositories.pdb
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csprojAssemblyReference.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.AssemblyInfoInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.AssemblyInfo.cs
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.csproj.CopyComplete
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.dll
+C:\Users\Layane Bastos\Downloads\IdMusic-layane\Backend\IdMusic\src\Modules\IdMusic.Repositories.IoC\obj\Debug\netcoreapp3.1\IdMusic.Repositories.IoC.pdb

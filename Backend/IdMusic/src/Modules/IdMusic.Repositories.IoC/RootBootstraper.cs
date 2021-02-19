@@ -11,6 +11,7 @@ namespace IdMusic.Repositories.IoC
     {
       new ApplicationBootstraper().ChildServiceRegister(services);
       new RepositoryBootstraper().ChildServiceRegister(services);
+
     }
   }
 }
