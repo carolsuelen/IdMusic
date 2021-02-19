@@ -128,7 +128,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http/2.2.0": {
+      "Microsoft.AspNetCore.Http/2.2.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -2040,6 +2040,7 @@
           "IdMusic.Application": "1.0.0",
           "IdMusic.Domain": "1.0.0",
           "IdMusic.Repositories": "1.0.0",
+          "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.12"
         },
@@ -2172,16 +2173,16 @@
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http/2.2.0": {
-      "sha512": "YogBSMotWPAS/X5967pZ+yyWPQkThxhmzAwyCHCSSldzYBkW5W5d6oPfBaPqQOnSHYTpSOSOkpZoAce0vwb6+A==",
+    "Microsoft.AspNetCore.Http/2.2.2": {
+      "sha512": "BAibpoItxI5puk7YJbIGj95arZueM8B8M5xT1fXBn3hb3L2G3ucrZcYXv1gXdaroLbntUs8qeV8iuBrpjQsrKw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http/2.2.0",
+      "path": "microsoft.aspnetcore.http/2.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
-        "microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
@@ -6993,11 +6994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
       "projectName": "IdMusic.Api",
-      "projectPath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+      "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
       "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
-      "outputPath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\obj\\",
+      "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7014,11 +7015,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
-              "projectPath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
+            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
             },
-            "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
-              "projectPath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj"
+            "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
+              "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+YFZ4anreRsS5Zw9YvCim6Y+A3X+rZGtMmfma+rC+0AHrmMnpsPhr3ldA936QOG0OvmQ5BS76OJulDlQ1u/jw==",
+  "dgSpecHash": "pGmNQa/lNGTpKnDYYfe7mf72jlEZb3Nk47QipHpEPjcoAkzIKsT1fPCJw7/duD2RCjJd2e+sTlrNUKhT+lfwvg==",
   "success": true,
-  "projectFilePath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
+  "projectFilePath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Services\\IdMusic.Api\\IdMusic.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -13,7 +13,7 @@
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\2.2.0\\microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+    "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

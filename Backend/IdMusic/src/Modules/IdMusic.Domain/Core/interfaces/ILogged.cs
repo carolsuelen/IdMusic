@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IdMusic.Domain.Core.interfaces
 {
-  interface ILogged
+  public interface ILogged
   {
     int GetClientLoggedId();
   }

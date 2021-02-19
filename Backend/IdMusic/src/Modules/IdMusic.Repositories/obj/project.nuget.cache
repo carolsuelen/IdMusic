@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+nmunTBZnhYmnE3SUrDESr9tqG9JnFDE/GjpjuCqk+N9ERlW1Fb4xPNEDN9IrNjv5u1X3u29aoeBhQox5Jav4Q==",
+  "dgSpecHash": "E2diCeYpo84kfvYcWN2c3jV9XRgRMyfgdXMcvMGr6vyyufY3IoRUiKoZq55Us3WyjwI0i9t5RLdr5+tAMJ4r6w==",
   "success": true,
-  "projectFilePath": "C:\\Gama_IdMusic\\IdMusic\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Layane Bastos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

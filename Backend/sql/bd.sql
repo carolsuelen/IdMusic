@@ -33,14 +33,14 @@ CREATE TABLE dbo.Postage (
    Id int IDENTITY(1,1) NOT NULL,
    ClientId int NOT NULL,
    Text varchar(250) NOT NULL,
+   Photo varchar(1000) NULL,
+   Video varchar (1000) NULL,
    Creation DateTime NOT NULL,
    CONSTRAINT PK_Postage_Id PRIMARY KEY CLUSTERED (Id)
 )
-
 ALTER TABLE dbo.Postage
    ADD CONSTRAINT FK_Postage_Client FOREIGN KEY (ClientId)
       REFERENCES dbo.Client (Id)
-	  
 	  
 CREATE TABLE dbo.Commentary (
    Id int IDENTITY(1,1) NOT NULL,
