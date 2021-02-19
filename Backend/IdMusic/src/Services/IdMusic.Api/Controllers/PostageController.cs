@@ -17,15 +17,15 @@ namespace IdMusic.Api.Controllers
   public class PostageController : ControllerBase
   {
     private readonly IPostageAppService _postageAppService;
-    //private readonly ICommentaryAppService _commentaryAppService;
-    //private readonly ILikesAppService _likesAppService;
-    public PostageController(IPostageAppService postageAppService)
-    //ICommentaryAppService commentaryAppService,
-    //ILikesAppService likesAppService)
+    private readonly ICommentaryAppService _commentaryAppService;
+    private readonly ILikeAppService _likeAppService;
+    public PostageController(IPostageAppService postageAppService,
+    ICommentaryAppService commentaryAppService,
+    ILikeAppService likeAppService)
     {
       _postageAppService = postageAppService;
-      //_commentaryAppService = commentaryAppService;
-      //_likesAppService = likesAppService;
+      _commentaryAppService = commentaryAppService;
+      _likeAppService = likeAppService;
     }
 
     [Authorize]
@@ -60,77 +60,77 @@ namespace IdMusic.Api.Controllers
       return Ok(postages);
     }
 
-    //[Authorize]
-    //[HttpPost]
-    //[Route("{id}/Comments")]
-    //public async Task<IActionResult> PostCommets([FromRoute] int id, [FromBody] CommentaryInput commentaryInput)
-    //{
-    //  try
-    //  {
-    //    var client = await _commentaryAppService
-    //                        .InsertAsync(id, commentaryInput)
-    //                        .ConfigureAwait(false);
+    [Authorize]
+    [HttpPost]
+    [Route("{id}/Comments")]
+    public async Task<IActionResult> PostCommets([FromRoute] int id, [FromBody] CommentaryInput commentaryInput)
+    {
+      try
+      {
+        var client = await _commentaryAppService
+                            .InsertAsync(id, commentaryInput)
+                            .ConfigureAwait(false);
 
-    //    return Created("", client);
-    //  }
-    //  catch (ArgumentException arg)
-    //  {
-    //    return BadRequest(arg.Message);
-    //  }
-    //}
+        return Created("", client);
+      }
+      catch (ArgumentException arg)
+      {
+        return BadRequest(arg.Message);
+      }
+    }
 
-    //[Authorize]
-    //[HttpGet]
-    //[Route("{id}/Comments")]
-    //public async Task<IActionResult> GetCommentaries([FromRoute] int id)
-    //{
-    //  var commentaries = await _commentaryAppService
-    //                          .GetByPostageIdAsync(id)
-    //                          .ConfigureAwait(false);
+    [Authorize]
+    [HttpGet]
+    [Route("{id}/Commentaries")]
+    public async Task<IActionResult> GetCommentaries([FromRoute] int id)
+    {
+      var commentaries = await _commentaryAppService
+                              .GetByPostageIdAsync(id)
+                              .ConfigureAwait(false);
 
-    //  if (commentaries is null)
-    //    return NoContent();
+      if (commentaries is null)
+        return NoContent();
 
-    //  return Ok(commentaries);
-    //}
+      return Ok(commentaries);
+    }
 
-    //[Authorize]
-    //[HttpPost]
-    //[Route("{id}/Likes")]
-    //  public async Task<IActionResult> PostLike([FromRoute] int id)
-    //  {
-    //    try
-    //    {
-    //      await _likesAppService
-    //                  .InsertAsync(id)
-    //                  .ConfigureAwait(false);
+    [Authorize]
+    [HttpPost]
+    [Route("{id}/Like")]
+    public async Task<IActionResult> PostLike([FromRoute] int id)
+    {
+      try
+      {
+        await _likeAppService
+                    .InsertAsync(id)
+                    .ConfigureAwait(false);
 
-    //      return Created("", "");
-    //    }
-    //    catch (ArgumentException arg)
-    //    {
-    //      return BadRequest(arg.Message);
-    //    }
-    //  }
+        return Created("", "");
+      }
+      catch (ArgumentException arg)
+      {
+        return BadRequest(arg.Message);
+      }
+    }
 
-    //  [Authorize]
-    //  [HttpGet]
-    //  [Route("{id}/Likes/Quantity")]
-    //  public async Task<IActionResult> GetLike([FromRoute] int id)
-    //  {
-    //    try
-    //    {
-    //      var quantity = await _likeAppService
-    //                              .GetQuantityOfLikesByPostageIdAsync(id)
-    //                              .ConfigureAwait(false);
+    [Authorize]
+    [HttpGet]
+    [Route("{id}/Like/Quantity")]
+    public async Task<IActionResult> GetLike([FromRoute] int id)
+    {
+      try
+      {
+        var quantity = await _likeAppService
+                                .GetQuantityOfLikeByPostageIdAsync(id)
+                                .ConfigureAwait(false);
 
-    //      return Ok(quantity);
-    //    }
-    //    catch (ArgumentException arg)
-    //    {
-    //      return BadRequest(arg.Message);
-    //    }
-    //  }
+        return Ok(quantity);
+      }
+      catch (ArgumentException arg)
+      {
+        return BadRequest(arg.Message);
+      }
+    }
 
     [Authorize]
     [HttpPut]
@@ -163,6 +163,24 @@ namespace IdMusic.Api.Controllers
       try
       {
         await _postageAppService
+                         .DeleteAsync(id)
+                         .ConfigureAwait(false);
+        return Ok();
+      }
+      catch (Exception ex)
+      {
+        return NotFound(ex.Message);
+      }
+
+    }
+    [Authorize]
+    [HttpDelete]
+    [Route("{id}/commentaries")]
+    public async Task<IActionResult> DeleteCommentary([FromRoute] int id)
+    {
+      try
+      {
+        await _commentaryAppService
                          .DeleteAsync(id)
                          .ConfigureAwait(false);
         return Ok();
