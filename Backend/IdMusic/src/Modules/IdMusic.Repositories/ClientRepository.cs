@@ -91,7 +91,7 @@ namespace IdMusic.Repositories
                                 FROM
 	                                Client c
                                 INNER JOIN 
-	                                Genre g ON g.Id = u.GenreId
+	                                Genre g ON g.Id = c.GenreId
                                 WHERE 
 	                                c.Email= '{login}'";
 
@@ -108,13 +108,15 @@ namespace IdMusic.Repositories
           {
 
             var client = new Client(reader["Name"].ToString(),
+                                      reader["Email"].ToString(),
+                                      reader["Password"].ToString(),
                                       DateTime.Parse(reader["Birthday"].ToString()),
                                       new Genre(reader["Description"].ToString()),
                                       reader["Photo"].ToString(),
                                       reader["PhotoCapa"].ToString(),
                                       reader["Biografy"].ToString(),
                                       reader["Band"].ToString());
-                                    
+
 
             client.InformationLoginClient(reader["Email"].ToString(), reader["Password"].ToString());
             client.SetId(int.Parse(reader["id"].ToString()));
@@ -175,5 +177,74 @@ namespace IdMusic.Repositories
         }
       }
     }
+    public async Task UpdateAsync(int id, Client client)
+    {
+      try
+      {
+        using (var con = new SqlConnection(_configuration["ConnectionString"]))
+        {
+          var sqlCmd = $@"UPDATE Client SET GenreId = @genreId,
+                                             Name = @name,
+                                             Email = @email,
+                                             Password = @password,
+                                             Birthday = @birthday,
+                                             Photo = @photo,
+                                             PhotoCapa = @photocapa,
+                                             Biografy = @biografy,
+                                             Band = @band
+                                       WHERE id = {client.Id}";
+
+          using (var cmd = new SqlCommand(sqlCmd, con))
+          {
+            cmd.CommandType = CommandType.Text;
+
+            cmd.Parameters.AddWithValue("genreId", client.Genre.Id);
+            cmd.Parameters.AddWithValue("name", client.Name);
+            cmd.Parameters.AddWithValue("email", client.Email);
+            cmd.Parameters.AddWithValue("password", client.Password);
+            cmd.Parameters.AddWithValue("birthday", client.Birthday);
+            cmd.Parameters.AddWithValue("photo", client.Photo);
+            cmd.Parameters.AddWithValue("photocapa", client.PhotoCapa);
+            cmd.Parameters.AddWithValue("biografy", client.Biografy);
+            cmd.Parameters.AddWithValue("band", client.Band);
+
+            con.Open();
+            await cmd
+                            .ExecuteScalarAsync()
+                            .ConfigureAwait(false);
+
+
+          }
+        }
+      }
+      catch (SqlException ex)
+      {
+        throw new Exception(ex.Message);
+      }
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+      using (var con = new SqlConnection(_configuration["ConnectionString"]))
+      {
+        var sqlCmd = $@"DELETE from Client  WHERE id = {id}";
+
+        using (var cmd = new SqlCommand(sqlCmd, con))
+        {
+          cmd.CommandType = CommandType.Text;
+
+
+          con.Open();
+          await cmd
+                .ExecuteScalarAsync()
+                .ConfigureAwait(false);
+        }
+      }
+    }
+
+
+
+
+
   }
 }

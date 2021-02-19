@@ -40,7 +40,7 @@ namespace IdMusic.Api.Controllers
         return new UnsupportedMediaTypeResult();
       }
 
-      return BadRequest("Erro ao fazero upload!");
+      return BadRequest("Erro ao fazer o upload!");
     }
   }
 }

@@ -7,8 +7,9 @@ namespace IdMusic.Repositories.IoC.Repositories
   {
     internal void ChildServiceRegister(IServiceCollection services)
     {
-      services.AddSingleton<IClientRepository, ClientRepository>();
-      services.AddSingleton<IGenreRepository, GenreRepository>();
+      services.AddScoped<IClientRepository, ClientRepository>();
+      services.AddScoped<IGenreRepository, GenreRepository>();
+      services.AddScoped<IPostageRepository, PostageRepository>();
     }
   }
 }
