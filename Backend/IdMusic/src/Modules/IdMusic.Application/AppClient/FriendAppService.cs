@@ -22,11 +22,11 @@ namespace IdMusic.Application.AppClient
     }
     public async Task<List<Friends>> GetByFriendIdAsync(int friendId)
     {
-      var comments = await _friendRepository
+      var friends = await _friendRepository
                               .GetByFriendIdAsync(friendId)
                               .ConfigureAwait(false);
 
-      return comments;
+      return friends;
     }
 
     public async Task<Friends> InsertAsync(int friendId, FriendInput input)
@@ -45,10 +45,10 @@ namespace IdMusic.Application.AppClient
 
       return friend;
     }
-    public async Task<int> GetQuantityOfFriendByIdAsync(int friendId)
+    public async Task<int> GetQuantityOfFriendByIdAsync(int clientId)
     {
       return await _friendRepository
-                      .GetQuantityOfFriendByIdAsync(friendId)
+                      .GetQuantityOfFriendByIdAsync(clientId)
                       .ConfigureAwait(false);
     }
     public async Task DeleteAsync(int id)

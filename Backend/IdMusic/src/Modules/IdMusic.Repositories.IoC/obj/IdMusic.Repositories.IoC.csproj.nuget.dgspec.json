@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {}
+    "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+    "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
         "projectName": "IdMusic.Application",
-        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
-        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\obj\\",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
-                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
               }
             }
           }
@@ -62,17 +62,17 @@
         }
       }
     },
-    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+    "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
         "projectName": "IdMusic.Domain",
-        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
-        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,17 +130,17 @@
         }
       }
     },
-    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
+    "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
         "projectName": "IdMusic.Repositories.IoC",
-        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
-        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\obj\\",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,14 +154,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
-                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
+              "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
               },
-              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
-                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
               },
-              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
-                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj"
+              "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj"
               }
             }
           }
@@ -208,17 +208,17 @@
         }
       }
     },
-    "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+    "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
         "projectName": "IdMusic.Repositories",
-        "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Koz\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Koz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,8 +232,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
-                "projectPath": "D:\\projetos\\Gama\\WeCanCodeAcademy\\C#\\IdMusic\\IdMusic\\Bakcend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\idMusica-carol\\IdMusic-main\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
               }
             }
           }

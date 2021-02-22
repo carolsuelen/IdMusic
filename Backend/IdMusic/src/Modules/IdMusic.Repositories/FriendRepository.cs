@@ -19,17 +19,17 @@ namespace IdMusic.Repositories
       _configuration = configuration;
     }
 
-    public async Task<List<Friends>> GetByFriendIdAsync(int friendId)
+    public async Task<List<Friends>> GetByFriendIdAsync(int clientId)
     {
       using (var con = new SqlConnection(_configuration["ConnectionString"]))
       {
-        var sqlCmd = @$"SELECT Id,
-	                             ClientId,
-                               FriendId,
+        var sqlCmd = @$"SELECT      Id,
+	                                ClientId,
+                                    FriendId
                                 FROM 
-	                                Friend
+	                                Friends
                                 WHERE 
-	                                ClientId= '{friendId}'";
+	                                ClientId= '{clientId}'";
 
         using (var cmd = new SqlCommand(sqlCmd, con))
         {
@@ -60,9 +60,9 @@ namespace IdMusic.Repositories
       using (var con = new SqlConnection(_configuration["ConnectionString"]))
       {
         var sqlCmd = @$"SELECT * FROM
-	                                Friend
+	                                Friends
                                 WHERE 
-	                                ClientId= '{id}'";
+	                                FriendId= '{id}'";
 
         using (var cmd = new SqlCommand(sqlCmd, con))
         {
@@ -92,8 +92,8 @@ namespace IdMusic.Repositories
       using (var con = new SqlConnection(_configuration["ConnectionString"]))
       {
         var sqlCmd = @"INSERT INTO
-                                Friend (ClientId,
-                                        FriendId,)
+                                Friends (ClientId,
+                                        FriendId)
                                 VALUES (@clientId,
                                         @friendId); SELECT scope_identity();";
 
@@ -113,7 +113,7 @@ namespace IdMusic.Repositories
         }
       }
     }
-    public async Task<int> GetQuantityOfFriendByIdAsync(int friendId)
+    public async Task<int> GetQuantityOfFriendByIdAsync(int ClientId)
     {
       using (var con = new SqlConnection(_configuration["ConnectionString"]))
       {
@@ -122,7 +122,7 @@ namespace IdMusic.Repositories
                                 FROM 
                                  Friends
                                 WHERE 
-                                 FriendId={friendId}";
+                                 ClientId={ClientId}";
 
         using (var cmd = new SqlCommand(sqlCmd, con))
         {
@@ -147,7 +147,7 @@ namespace IdMusic.Repositories
     {
       using (var con = new SqlConnection(_configuration["ConnectionString"]))
       {
-        var sqlCmd = $@"DELETE from Friends  WHERE id = {id}";
+        var sqlCmd = $@"DELETE from Friends  WHERE Friendid = {id}";
 
         using (var cmd = new SqlCommand(sqlCmd, con))
         {
