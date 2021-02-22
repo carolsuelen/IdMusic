@@ -1,0 +1,47 @@
+.navbar{
+    background-image: url(capa.png);
+    height: 60px;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #f3f2f2;
+    margin-left: 20px;
+}
+.dropdown-item{
+    color:white;
+    background-color: #530202;
+    width: 120px;
+}
+
+.dropdown-menu{
+    background-position: center;
+    background-color: #530202;
+    width: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-menu {
+    position: absolute;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-menu a:hover {background-color: #fc9b7e};
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }

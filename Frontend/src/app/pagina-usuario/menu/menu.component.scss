@@ -1,0 +1,109 @@
+#usuario{
+    margin-top:2em;
+    width: 171px;
+    height:166px;
+    background-image: url(IMG_20171224_220303356.jpg);
+    border-radius: 105px;
+	background-position: center;
+	background-size: cover;
+  
+}
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin-left:55px; 
+	font:  62.5%/1.2 Verdana, Helvetica, Arial, sans-serif;
+}
+
+
+#lateral {
+    padding:10 50px 20 0;
+    font-size:1.2em;
+    background: linear-gradient(to top, #ff0000 0%, #000000 100%);
+    height:100%;
+    width:250px;
+    top:85px;
+    left:320px;
+}
+
+#lateral .box {
+	list-style-type:none;
+    margin-bottom:1em;
+    margin-top:1em;
+	padding-bottom:1em;
+}
+#lateral h3 {
+    position: relative;
+	display:inline-block;
+	font-weight:bold;
+	font-size:1.6em;
+	font-style:normal;
+	padding-bottom:0.2em;
+	margin: 2em 0 2em 0.81em;
+	color:rgb(255,255,255);
+}
+
+#menu {
+	font-style:normal;
+	position:relative;
+	font-size:1.0em;
+	margin:0 1em 1em 1em;
+	padding:0;
+	height: 1000px;
+}
+
+#menu li {padding:0; margin:0;}
+
+#menu li a,  #menu li a:link {
+	font-size:1.2em;
+	color:rgb(255,255,255);
+	text-decoration: none;
+	padding: 0.8em 0 0.8em 1em;
+	display: block;
+}
+
+#menu li a:hover {
+	color:rgb(255,255,255);
+	background-color:rgba(255,255,255,0.2);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+    position: absolute;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #fc9b7e};
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item{
+    color:black;
+    background-color: #530202;
+    width: 120px;
+	margin-left: 1em;
+}
+
+.dropdown-menu{
+    background-position: center;
+    background-color: #530202;
+    width: 100px;
+}
