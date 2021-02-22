@@ -29,9 +29,9 @@ jobs:
       # Run dotnet build and publish
       - name: dotnet build and publish
         run: |
-          dotnet build Backend/IdMusic/IdMusic.sln --configuration Release
+          dotnet build IdMusic/Bakcend/IdMusic/IdMusic.sln --configuration Release
 
-          dotnet publish Backend/IdMusic/src/Services/IdMusic.Api/IdMusic.Api.csproj -c Release -o myapp  
+          dotnet publish IdMusic/Backend/IdMusic/src/Services/IdMusic.Api/IdMusic.Api.csproj -c Release -o myapp  
 
       # Deploy to Azure Web apps
       - name: 'Run Azure webapp deploy action using publish profile credentials'
