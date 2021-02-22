@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "projectName": "IdMusic.Application",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "projectName": "IdMusic.Domain",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "projectName": "IdMusic.Repositories.IoC",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\IdMusic.Repositories.IoC.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Application\\IdMusic.Application.csproj"
+              },
+              "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              },
+              "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "projectName": "IdMusic.Repositories",
+        "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\IdMusic.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Layane Bastos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Layane Bastos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj": {
+                "projectPath": "C:\\Users\\Layane Bastos\\Downloads\\IdMusic-layane\\Backend\\IdMusic\\src\\Modules\\IdMusic.Domain\\IdMusic.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
