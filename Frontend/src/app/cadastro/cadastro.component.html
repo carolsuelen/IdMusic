@@ -1,0 +1,169 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="container">
+    <div class="py-5 text-center text-dark">
+      <h2>Tela de Cadastro</h2>
+      <p class="lead text-danger">Informações do Perfil de Usuário</p>
+    </div>
+
+    <form class="form-signin" #form="ngForm" (ngSubmit)="onSubmit(form)">
+      <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label text-dark">Primeiro Nome:</label>
+          <input
+          class="inputName"
+          placeholder = "Name" name ="name" 
+          type="text" class="form-control" id="firstName"
+          placeholder="Name" autofocus
+          [(ngModel)]="client.name" required
+          [class.is-invalid]="exibeErro('name',form)" #nameInput>
+            <p *ngIf="exibeErro('name', form)" class="text-center text-danger"> Campo obrigatório </p>
+        </div>
+  
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label text-dark">Último Nome:</label>
+          <input
+          class="inputSobrenome"
+          placeholder = "Sobrenome" name ="sobrenome" 
+          type="text" class="form-control" id="lastName"
+          placeholder="Sobrenome" autofocus
+
+          [class.is-invalid]="exibeErro('sobrenome',form)" #SobrenomeInput>
+            <p *ngIf="exibeErro('sobrenome', form)" class="text-center text-danger"> Campo obrigatório </p>
+        </div>
+       
+        <div class="col-sm-6">
+          <label for="email" class="form-label text-dark">E-mail</label>
+          <input 
+            class="inputEmail"
+            type="email" class="form-control" 
+            placeholder = "E-mail" name ="email"
+            class="form-control" id="email"
+            placeholder="Informe seu e-mail" autofocus
+            [(ngModel)]="client.email" email required
+            [class.is-invalid]="exibeErro('email',form)" #emailInput>
+          <p *ngIf="exibeErro('email', form)" class="text-center text-danger"> Por favor, isira uma e-mail válido </p>
+        </div>
+        <div class="col-sm-6">
+          <label for="password" class="form-label text-dark">Senha</label>
+          <input 
+          class="inputPassword"
+          type="password" class="form-control" 
+          placeholder = "Senha" name ="password"
+          class="form-control" id="password"
+          placeholder="Informe sua senha" autofocus
+          [(ngModel)]="client.password" senha required
+          [class.is-invalid]="exibeErro('password',form)" #passwordInput>
+            <p *ngIf="exibeErro('password', form)" class="text-center text-danger">Campo Obrigatório </p>
+        </div>
+        <br>
+        <div class="col-sm-6">
+            <div>
+              <label for="birthday" class="text-dark">Data de Nascimento:</label><br>
+              <input 
+              class="inputBirthday" class="form-control" 
+              name ="birthday" id="birthday" autofocus
+              [(ngModel)]="client.birthday" birthday required
+              [class.is-invalid]="exibeErro('birthday',form)" #birthdayInput
+              type="date" min="1900-01-01" max="2021-03-01">
+              <p *ngIf="exibeErro('birthday', form)" class="text-center text-danger">Campo Obrigatório </p>
+            </div>
+        </div>
+
+        <div class="col-sm-6"><br>
+          <label for="state" class="form-label text-dark">Gênero</label><br>
+          <select 
+          class="inputGenreId"
+          type="select" class="form-control" name ="genreId"
+          class="form-control" id="genreId" autofocus
+          [(ngModel)]="client.genreId" genero required #genreIdSelect
+          class="form-select"  required>
+            <option value="">Escolha uma das opções abaixo</option>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+            <option value="3">Homem transgênero</option>
+            <option value="4">Mulher transgênero</option>
+            <option value="5">Não Binário</option>
+            <option value="6">Outro</option>
+          </select>
+          <p *ngIf="exibeErro('genreId', form)" class="text-center text-danger">Campo Obrigatório </p>
+        </div>
+
+        <div class="col-sm-6 checkbox mb-3 text-dark">
+          <label for="genreId" class="text-dark " > Tornar sua opção de gênero vísível para outros usuários? </label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+            <label class="form-check-label" for="inlineRadio1">Sim</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+            <label class="form-check-label" for="inlineRadio2">Não</label>
+          </div>
+        </div>
+
+        <div class="col-sm-6"><br>
+          <label for="state" class="form-label text-dark">
+            Estilo musical
+          </label><br>
+          <select class="form-select" id="state" required>
+            <option value="">Escolha seu estilo musical</option>
+            <option value="1">Rock</option>
+            <option value="2">Pagode</option>
+            <option value="3">Forró</option>
+            <option value="4">Samba</option>
+            <option value="5">Indie</option>
+            <option value="6">Gospel</option>
+            <option value="7">Sertanejo</option>
+          </select>
+        </div>
+
+        <div class="col-sm-6"><br>
+          <div class="form-group">
+            <label for="exampleFormControlFile1"  >Escolha uma foto para o seu perfil:</label>
+            <input #fileInputPhoto id="fileInputPhoto" type='file'  value="" (change)="onSelectFile($event,'perfil')">
+            <!-- <input type="file"  photo required #photolInput class="form-control-file" id="exampleFormControlFile1" (change)="saveClientPhoto(client.photo)"> -->
+          </div>
+        </div>
+        <div class="col-sm-6"><br>
+          <div class="form-group">
+            <label for="exampleFormControlFile2" >Escolha uma foto para sua capa:</label>
+            <input #fileInputCapa   id="fileInputCapa" type='file' value="" (change)="onSelectFile($event,'capa')">
+            <!-- <input type="file"  photCapa required #photoCapaInput class="form-control-file" id="exampleFormControlFile1" (change)="saveClientPhotoCapa(client.photoCapa)"> -->
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <label for="biografy" class="form-label text-dark" >Biografia</label>
+          <input 
+            [(ngModel)]="client.biografy" biografy required #biografyInput
+            class="inputBiografy"
+            type="biografy" class="form-control" 
+            placeholder = "E-mail" name ="biografy"
+            class="form-control" id="biografy"
+            placeholder="Insira uma breve biografia" autofocus>
+        </div>
+        <div class="col-sm-6">
+          <label for="band" class="form-label text-dark" >Bandas</label>
+          <input 
+            
+            class="inputBand"
+            type="band" class="form-control" 
+            placeholder = "E-mail" name ="band"
+            class="form-control" id="band"
+            [(ngModel)]="client.band" band required #bandInput 
+            placeholder="Insira suas bandas favoritas" autofocus>
+        </div>
+
+      </div>
+      <br>
+      <div class="text-center">
+        <button type="button" class="btn btn-lg btn-personalizado" type="submit" (click)="saveClient(form)">Salvar</button>
+
+      </div>
+    </form>
+        
+    
+
+  
+     
+  
+     
